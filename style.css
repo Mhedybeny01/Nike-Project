@@ -226,22 +226,22 @@ body {
 
 /* Add specific background images to each category */
 .categories .cat:nth-child(1) {
-  background-image: url("/imges/NikeTech.jpg");
+  background-image: url("NikeTech.jpg");
 }
 .categories .cat:nth-child(1) {
-  background-image: url("/imges/NikeTech.jpg");
+  background-image: url("NikeTech.jpg");
 }
 
 .categories .cat:nth-child(2) {
-  background-image: url("/imges/nikeshoes1.jpg");
+  background-image: url("nikeshoes1.jpg");
 }
 
 .categories .cat:nth-child(3) {
-  background-image: url("/imges/NikeBlazer.jpg");
+  background-image: url("NikeBlazer.jpg");
 }
 
 .categories .cat:nth-child(4) {
-  background-image: url("/imges/ambushxnikejacket.jpg");
+  background-image: url("ambushxnikejacket.jpg");
 }
 .categories h2,
 .categories h1,
@@ -284,7 +284,7 @@ body {
 }
 
 .cover {
-  background-image: url(/imges/nikecvr.jpg);
+  background-image: url(nikecvr.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
