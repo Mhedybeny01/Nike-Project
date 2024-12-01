@@ -448,7 +448,7 @@ p {
     display: block;
   }
   .dropmenu .linksdrop a {
-    font-size: 2rem;
+       font-size: 1.6rem;
   }
   .hometitle h2 {
     font-family: Arial, Helvetica, sans-serif;
