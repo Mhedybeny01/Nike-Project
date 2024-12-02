@@ -293,6 +293,23 @@ body {
   flex-direction: column;
   gap: 10px;
 }
+
+.btnbuy button {
+  padding: 5px 15px;
+  background-color: black;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  outline: 0;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  cursor: pointer;
+}
+
+
+
 /* fin parte menu dropdown and navbar*/
 @media (max-width: 850px) {
   .dropmenu .close {
@@ -344,7 +361,7 @@ body {
   }
   .menu {
     display: none;
-    align-items: flex-start;
+    align-items: center;
     justify-content: flex-start;
     flex-direction: column;
     width: 100%;
@@ -352,10 +369,16 @@ body {
     height: 100vh;
     padding: 60px 20px;
     gap: 30px;
-    flex: 20%;
-    z-index: 1000;
+    flex: 100%;
+    
   }
   .menu.act {
-    display: none;
+    display: flex;
+  }
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
   }
 }
